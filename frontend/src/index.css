@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Refined TRON Dark Theme ── */
+    --background: 220 30% 2%; /* Pitch black with very slight depth */
+    --foreground: 180 100% 95%; /* Very light blue/cyan text */
+
+    --card: 220 30% 3%;
+    --card-foreground: 180 100% 95%;
+
+    --popover: 220 30% 3%;
+    --popover-foreground: 180 100% 95%;
+
+    --primary: 185 100% 55%; /* Brighter, thinner neon cyan */
+    --primary-foreground: 220 30% 2%;
+
+    --secondary: 185 70% 15%;
+    --secondary-foreground: 185 100% 90%;
+
+    --muted: 220 20% 8%;
+    --muted-foreground: 190 20% 60%;
+
+    --accent: 165 100% 50%; /* Bright neon green/cyan accent */
+    --accent-foreground: 220 30% 2%;
+
+    --destructive: 0 100% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 185 100% 40% / 0.2; /* Slim neon border */
+    --input: 185 50% 5%;
+    --ring: 185 100% 60%;
+
+    --radius: 0.25rem;
+
+    --sidebar-background: 220 30% 1%;
+    --sidebar-foreground: 180 100% 90%;
+    --sidebar-primary: 185 100% 60%;
+    --sidebar-primary-foreground: 220 30% 2%;
+    --sidebar-accent: 185 80% 15%;
+    --sidebar-accent-foreground: 185 100% 90%;
+    --sidebar-border: 185 100% 50% / 0.1;
+    --sidebar-ring: 185 100% 60%;
+    --sidebar-muted: 190 20% 50%;
+
+    --font-display: 'Inter', sans-serif;
+    --font-body: 'IBM Plex Sans', sans-serif;
+
+    /* Refined Neon light blue tokens */
+    --neon-blue: 0, 229, 255;
+    --neon-cyan: 0, 255, 230;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+}
+
+/* ── Refined TRON Neon Utilities ── */
+@layer utilities {
+  .neon-glow {
+    box-shadow: 
+      0 0 4px rgba(var(--neon-blue), 0.4),
+      0 0 12px rgba(var(--neon-blue), 0.15);
+  }
+
+  .neon-glow-strong {
+    box-shadow: 
+      0 0 6px rgba(var(--neon-blue), 0.6),
+      0 0 20px rgba(var(--neon-blue), 0.2);
+  }
+
+  .neon-border {
+    border: 1px solid rgba(var(--neon-blue), 0.5);
+    box-shadow: 0 0 8px rgba(var(--neon-blue), 0.2);
+  }
+
+  .neon-text {
+    text-shadow: 0 0 4px rgba(var(--neon-blue), 0.6), 0 0 10px rgba(var(--neon-blue), 0.2);
+    @apply font-bold tracking-wider;
+  }
+
+  .tron-grid-bg {
+    background-image: 
+      linear-gradient(rgba(var(--neon-blue), 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(var(--neon-blue), 0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-color: hsl(220 30% 1%);
+  }
+
+  .tron-line {
+    position: relative;
+  }
+  .tron-line::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(var(--neon-blue), 0.8), transparent);
+    box-shadow: 0 0 5px rgba(var(--neon-blue), 0.8);
+  }
+}
