@@ -7,7 +7,7 @@
  **Live Demo:** [neurostrat-tau.vercel.app](https://neurostrat-tau.vercel.app)  
  **Backend API:** [neurostrat.onrender.com/docs](https://neurostrat.onrender.com/docs)
 
----
+
 
 ## The Problem This Solves
 
@@ -15,7 +15,7 @@ Existing outreach tools (Apollo, Lemlist, HeyReach) help you *send* messages. No
 
 NeuroStrat fills that gap. It's a **decision-making system**, not just an automation tool. Given a prospect's role, context, and behavioural signals, it reasons across 11 dimensions and returns a concrete, explainable strategy recommendation.
 
----
+
 
 ## Demo
 
@@ -25,7 +25,7 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 | "Tom Richards, Carpenter, small local business, no LinkedIn" | Cold Call · Curiosity-Led · 97% confidence |
 | "Marcus Webb, CEO, cold lead, enterprise company, struggling" | Email · Formal · 94% confidence |
 
----
+
 
 ## Architecture
 
@@ -53,7 +53,7 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+
 
 ## ML Model — Technical Details
 
@@ -144,7 +144,7 @@ weighted avg       0.92    0.92      0.91      300
   <img src="screenshots/model_comparison.png" width="45%" />
 </p>
 
----
+
 
 ## Signal Extraction — Bridging Natural Language to ML Features
 
@@ -159,7 +159,7 @@ General positive/negative language in the context field shifts scores continuous
 **Layer 3 — Deterministic identity hash**
 A small, stable offset derived from `hash(name + role)` ensures two different people with similar descriptions always produce different feature vectors — giving the ML model genuine variation to work with.
 
----
+
 
 ## Project Structure
 
@@ -222,7 +222,7 @@ npm run dev
 # App available at http://localhost:5173
 ```
 
----
+
 
 ## API Reference
 
@@ -253,7 +253,7 @@ npm run dev
 }
 ```
 
----
+
 
 ## Tech Stack
 
@@ -281,7 +281,7 @@ npm run dev
 - Render — backend hosting
 - GitHub Actions — CI (optional)
 
----
+
 
 ## What I Learned
 
@@ -289,7 +289,7 @@ Building this end-to-end taught me a lot about the full ML product lifecycle —
 
 I used AI assistance as a development tool throughout — for accelerating boilerplate, debugging, and getting a second opinion on architecture decisions — while driving the overall design, the ML methodology choices, and the product logic myself.
 
----
+
 
 ## Acknowledgements
 
