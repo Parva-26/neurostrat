@@ -2,7 +2,7 @@
 
 > *"Every other AI tool teaches the machine to speak. NeuroStrat teaches it to think."*
 
-**NeuroStrat** is an AI-powered B2B outreach strategy engine that analyses prospect signals and decides — intelligently — which channel to use, what tone to strike, and why. Built end-to-end with a custom ML pipeline, a FastAPI backend, and a React frontend.
+**NeuroStrat** is an AI-powered B2B/B2C outreach strategy engine that analyses prospect signals and decides — intelligently — which channel to use, what tone to strike, and why. Built end-to-end with a custom ML pipeline, a FastAPI backend, and a React frontend.
 
  **Live Demo:** [neurostrat-tau.vercel.app](https://neurostrat-tau.vercel.app)  
  **Backend API:** [neurostrat.onrender.com/docs](https://neurostrat.onrender.com/docs)
