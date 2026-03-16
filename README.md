@@ -36,7 +36,7 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 └──────────────────────────┬──────────────────────────────────────┘
                            │ HTTP + CORS
 ┌──────────────────────────▼──────────────────────────────────────┐
-│                  FastAPI Backend (Python)                        │
+│                  FastAPI Backend (Python)                       │
 │                                                                 │
 │  signal_extractor.py    ←  free-text → 11 ML features           │
 │  inference.py           ←  ML model prediction                  │
@@ -45,7 +45,7 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 └──────────────────────────┬──────────────────────────────────────┘
                            │
 ┌──────────────────────────▼──────────────────────────────────────┐
-│                  ML Pipeline (scikit-learn)                      │
+│                  ML Pipeline (scikit-learn)                     │
 │                                                                 │
 │  OutreachFeatureEngineer  ←  5 engineered features              │
 │  GradientBoostingClassifier  ←  channel prediction (93% F1)     │
