@@ -19,12 +19,10 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 
 ## Demo
 
-| Input | Output |
-|---|---|
-| "Sarah Chen, VP of Engineering, active on LinkedIn, Series B SaaS" | LinkedIn DM · Value-Led · 91% confidence |
-| "Tom Richards, Carpenter, small local business, no LinkedIn" | Cold Call · Curiosity-Led · 97% confidence |
-| "Marcus Webb, CEO, cold lead, enterprise company, struggling" | Email · Formal · 94% confidence |
-
+<p float="left">
+  <img src="screenshots/confusion_matrix.png" width="45%" />
+  <img src="screenshots/roc_curve.png" width="45%" />
+</p>
 
 
 ## Architecture
