@@ -290,8 +290,3 @@ Building this end-to-end taught me a lot about the full ML product lifecycle —
 I used AI assistance as a development tool throughout — for accelerating boilerplate, debugging, and getting a second opinion on architecture decisions — while driving the overall design, the ML methodology choices, and the product logic myself.
 
 
-
-## Acknowledgements
-
-Built for **LOC 8.0 Hackathon** — AI Outreach Decision Engine problem statement.  
-Team: **Heisenbug**
