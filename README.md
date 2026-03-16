@@ -20,10 +20,16 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 ## Demo
 
 <p>
+  <img src="screenshots/neurostrat-homepage.png" width="45%" />
+</p>
+<p>
   <img src="screenshots/new-outreach.png" width="45%" />
 </p>
-<p float="left">
+<p>
   <img src="screenshots/generated-strategy.png" width="45%" />
+</p>
+<p>
+  <img src="screenshots/outreach-history.png" width="45%" />
 </p>
 
 
@@ -136,13 +142,22 @@ weighted avg       0.92    0.92      0.91      300
 ### Model Evaluation Plots
 
 <p>
-  <img src="screenshots/roc_curve.png" width="45%"/>
+  <img src="screenshots/roc_best_channel.png" width="45%"/>
 </p>
 <p>
-  <img src="screenshots/confusion_matrix.png" width="45%"/>
+  <img src="screenshots/roc_tone.png" width="45%"/>
 </p>
 <p>
-  <img src="screenshots/feature_importance.png" width="45%"/>
+  <img src="screenshots/confusion_best_channel.png" width="45%"/>
+</p>
+<p>
+  <img src="screenshots/confusion_tone.png" width="45%"/>
+</p>
+<p>
+  <img src="screenshots/feature_importance_best_channel.png" width="45%"/>
+</p>
+<p>
+  <img src="screenshots/feature_importance_tone.png" width="45%"/>
 </p>
 <p>
   <img src="screenshots/model_comparison.png" width="45%"/>
