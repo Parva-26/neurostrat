@@ -190,17 +190,7 @@ neurostrat/
     └── models/                 Serialised .joblib artefacts (gitignored)
 ```
 
----
 
-## Screenshots
-
-<p float="left">
-  <img src="screenshots/dashboard.png" width="45%" />
-  <img src="screenshots/strategy_card.png" width="45%" />
-</p>
-<img src="screenshots/history.png" width="60%" />
-
----
 
 ## Running Locally
 
