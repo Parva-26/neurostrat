@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+*.db
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Large generated files
+ml/data/
+ml/results/
+
+# ML models (regenerate by running python train_evaluate.py)
+ml/models/
+
+# Environment files
+.env
+.env.local
+.env.production
