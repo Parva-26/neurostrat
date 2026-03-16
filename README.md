@@ -19,8 +19,10 @@ NeuroStrat fills that gap. It's a **decision-making system**, not just an automa
 
 ## Demo
 
-<p float="left">
+<p>
   <img src="screenshots/new-outreach.png" width="45%" />
+</p>
+<p float="left">
   <img src="screenshots/generated-strategy.png" width="45%" />
 </p>
 
