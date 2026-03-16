@@ -135,12 +135,16 @@ weighted avg       0.92    0.92      0.91      300
 
 ### Model Evaluation Plots
 
-<p float="left">
-  <img src="screenshots/confusion_matrix.png" width="45%" />
+<p>
   <img src="screenshots/roc_curve.png" width="45%" />
 </p>
-<p float="left">
+<p>
+  <img src="screenshots/confusion_matrix.png" width="45%" />
+</p>
+<p>
   <img src="screenshots/feature_importance.png" width="45%" />
+</p>
+<p>
   <img src="screenshots/model_comparison.png" width="45%" />
 </p>
 
